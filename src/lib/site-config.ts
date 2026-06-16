@@ -13,8 +13,8 @@ export const siteConfig = {
     "UI/UX Designer + Frontend Developer creating user-centered products through research, design, and code.",
   social: {
     github: "https://github.com/apoorvpatel649",
-    linkedin: "https://linkedin.com/in/apoorv-patel",
-    behance: "https://behance.net/ofc-apoorv",
+    linkedin: "https://www.linkedin.com/in/apoorv-patel-266387328/",
+    behance: "https://www.behance.net/apoorvpatel5",
     email: "mailto:apoorvpatel649@gmail.com",
   },
   education: {
