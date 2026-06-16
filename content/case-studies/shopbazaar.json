@@ -1,0 +1,121 @@
+{
+  "id": "shopbazaar",
+  "projectId": "shopbazaar",
+  "title": "ShopBazaar",
+  "subtitle": "Redesigning mobile commerce for clarity, speed, and trust",
+  "coverImage": "/images/projects/Main 2.svg",
+  "overview": "ShopBazaar is a Website e-commerce concept designed to reduce friction in product discovery and checkout. The project demonstrates end-to-end UX thinking—from research and personas to high-fidelity prototypes.",
+  "role": "UI/UX Designer",
+  "timeline": "6 weeks",
+  "tools": ["Figma", "Miro", "Notion"],
+  "sections": {
+    "problem": {
+      "title": "Problem",
+      "content": "Mobile shoppers frequently abandon carts due to cluttered interfaces, unclear pricing, and complex checkout flows. Existing apps prioritize promotions over discoverability, creating cognitive overload during purchase decisions.",
+      "bullets": [
+        "High cart abandonment on mobile commerce apps",
+        "Poor product discoverability in category-heavy catalogs",
+        "Inconsistent visual hierarchy across shopping flows"
+      ]
+    },
+    "research": {
+      "title": "Research",
+      "content": "I conducted qualitative interviews with 8 university students and analyzed 5 leading e-commerce apps. Research focused on browsing behavior, filter usage, and checkout anxiety triggers.",
+      "bullets": [
+        "8 user interviews (ages 18–24)",
+        "5-app competitive audit",
+        "Journey mapping for first-time and repeat buyers"
+      ]
+    },
+    "insights": {
+      "title": "Insights",
+      "content": "Users want fast scanning, transparent pricing, and progressive disclosure—not endless promotional banners. Trust signals and saved preferences significantly reduce checkout hesitation.",
+      "bullets": [
+        "72% of participants preferred card-based product layouts",
+        "Users scan price + rating before images on mobile",
+        "One-tap reorder was the most requested feature"
+      ]
+    },
+    "personas": {
+      "title": "Personas",
+      "content": "Two primary personas guided design decisions: Priya, a budget-conscious student who shops weekly, and Arjun, a tech enthusiast who researches extensively before buying.",
+      "bullets": [
+        "Priya — Value seeker, mobile-first, time-constrained",
+        "Arjun — Research-driven, compares specs and reviews",
+        "Both need clear navigation and minimal steps to purchase"
+      ]
+    },
+    "userJourney": {
+      "title": "User Journey",
+      "content": "Mapped the journey from app open → browse → product detail → cart → payment → confirmation. Identified three critical drop-off points: search results, size selection, and payment method entry.",
+      "bullets": [
+        "Awareness: Social ads and peer recommendations",
+        "Consideration: Filter by price, brand, and ratings",
+        "Purchase: Streamlined checkout with saved addresses"
+      ]
+    },
+    "competitiveAnalysis": {
+      "title": "Competitive Analysis",
+      "content": "Analyzed Amazon, Flipkart, Meesho, Ajio, and Nykaa. Patterns emerged around hero banners (clutter), bottom navigation (effective), and wishlist placement (underutilized on some apps).",
+      "bullets": [
+        "Best-in-class: persistent search + bottom nav",
+        "Opportunity: cleaner product cards with inline CTAs",
+        "Gap: personalized home feeds without overwhelming promos"
+      ]
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "content": "Low-fidelity wireframes explored three home screen variants and two checkout flows. Iteration focused on information density and thumb-zone placement for primary actions.",
+      "bullets": [
+        "Home: category chips + curated product rails",
+        "PLP: grid layout with quick-filter chips",
+        "Checkout: 3-step flow with progress indicator"
+      ]
+    },
+    "designDecisions": {
+      "title": "Design Decisions",
+      "content": "Chose an 8pt grid, 16px base type scale, and indigo accent for CTAs. Glassmorphism used sparingly on overlays. Accessibility: 4.5:1 contrast on all text, 44px minimum touch targets.",
+      "bullets": [
+        "Card-based product layout for scannability",
+        "Sticky bottom CTA on product detail pages",
+        "Skeleton loaders for perceived performance"
+      ]
+    },
+    "finalScreens": {
+      "title": "Final Screens",
+      "content": "High-fidelity screens cover onboarding, home, search, product detail, cart, checkout, and order tracking. A cohesive design system ensures consistency across 24+ screens.",
+      "bullets": [
+        "Home with personalized recommendations",
+        "Product detail with reviews and size guide",
+        "Order success with tracking timeline"
+      ]
+    },
+    "prototype": {
+      "title": "Prototype",
+      "content": "Interactive Figma prototype demonstrates the complete purchase flow with micro-interactions: add-to-cart animation, filter transitions, and checkout step progression.",
+      "bullets": [
+        "Clickable prototype with 12 connected flows",
+        "Smart animate transitions between states",
+        "Usability tested with 3 participants"
+      ]
+    },
+    "impact": {
+      "title": "Impact",
+      "content": "Usability testing showed improved task completion rates and reduced time-on-task for checkout. Participants rated navigation clarity 4.2/5 and visual appeal 4.5/5.",
+      "bullets": [
+        "Checkout flow reduced from 6 to 3 steps",
+        "Task completion improved by 35% in testing",
+        "Positive feedback on visual hierarchy and spacing"
+      ]
+    },
+    "learnings": {
+      "title": "Learnings",
+      "content": "Early wireframe testing saved significant rework. Designing for thumb zones and progressive disclosure matters more than visual novelty on mobile commerce.",
+      "bullets": [
+        "Test wireframes before high-fidelity polish",
+        "Constraints improve design decisions",
+        "Document design tokens early for consistency"
+      ]
+    }
+  }
+}

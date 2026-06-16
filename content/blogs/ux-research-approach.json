@@ -1,0 +1,13 @@
+{
+  "id": "design-process-ux-research",
+  "title": "How I Approach UX Research as a Student Designer",
+  "excerpt": "A practical framework for conducting meaningful user research without a big budget or research team.",
+  "category": "Design Process",
+  "author": "Apoorv Patel",
+  "publishedAt": "2025-11-15",
+  "readTime": "6 min",
+  "coverImage": "/images/blog/research.svg",
+  "slug": "ux-research-approach",
+  "published": true,
+  "content": "User research doesn't require expensive tools or large sample sizes to be valuable. As a student designer, I've learned that even 5-8 thoughtful interviews can uncover patterns that reshape entire product directions.\n\nMy process starts with defining clear research questions: What problem are we solving? Who experiences it most? What does success look like? From there, I recruit participants from my immediate network—classmates, friends, and campus communities—ensuring diversity in perspectives.\n\nDuring interviews, I focus on past behavior rather than hypothetical preferences. 'Tell me about the last time you...' reveals more than 'Would you use...' ever could. I synthesize findings into affinity maps, identifying recurring themes and emotional triggers.\n\nThe key insight: research is not a phase you complete—it's a lens you carry through every design decision. Every wireframe, every color choice, every interaction should trace back to something a real user told you."
+}

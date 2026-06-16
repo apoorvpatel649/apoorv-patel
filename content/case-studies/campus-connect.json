@@ -1,0 +1,121 @@
+{
+  "id": "campus-connect",
+  "projectId": "campus-connect",
+  "title": "Campus Connect",
+  "subtitle": "Building a student community platform from design to deployment",
+  "coverImage": "/images/projects/Main.svg",
+  "overview": "Campus Connect is a responsive web platform that helps students discover events, join clubs, and stay updated on campus life. Built with HTML, CSS, and JavaScript using a mobile-first approach.",
+  "role": "Frontend Developer & Designer",
+  "timeline": "4 weeks",
+  "tools": ["HTML", "CSS", "JavaScript", "VS Code", "GitHub"],
+  "sections": {
+    "problem": {
+      "title": "Problem",
+      "content": "University students struggle to discover campus events and club activities scattered across WhatsApp groups, notice boards, and social media. Information fragmentation leads to missed opportunities and low engagement.",
+      "bullets": [
+        "Event information spread across multiple channels",
+        "No centralized platform for club discovery",
+        "Poor mobile experience on existing solutions"
+      ]
+    },
+    "research": {
+      "title": "Research",
+      "content": "Surveyed 25 students on campus about how they discover events. Found that 80% rely on peer sharing, and 60% miss events due to information overload in group chats.",
+      "bullets": [
+        "25-student survey on event discovery habits",
+        "Analyzed existing campus communication patterns",
+        "Identified key content types: events, clubs, announcements"
+      ]
+    },
+    "insights": {
+      "title": "Insights",
+      "content": "Students need a single, scannable feed with clear categorization. Mobile access is critical—most students check updates between classes on their phones.",
+      "bullets": [
+        "Feed-based layout preferred over complex navigation",
+        "Date and location are the most important event metadata",
+        "Quick filters by category increase engagement"
+      ]
+    },
+    "personas": {
+      "title": "Personas",
+      "content": "Riya, a second-year student active in multiple clubs, and Dev, a first-year looking to explore campus life. Both need fast access to relevant updates.",
+      "bullets": [
+        "Riya — Club organizer, needs posting and discovery tools",
+        "Dev — New student, wants curated recommendations",
+        "Both prioritize mobile-friendly interfaces"
+      ]
+    },
+    "userJourney": {
+      "title": "User Journey",
+      "content": "Mapped flows for browsing events, filtering by category, viewing event details, and exploring clubs. Simplified navigation to three primary sections: Events, Clubs, Announcements.",
+      "bullets": [
+        "Land on home → scan featured events",
+        "Filter by category or date",
+        "View details → share or save event"
+      ]
+    },
+    "competitiveAnalysis": {
+      "title": "Competitive Analysis",
+      "content": "Reviewed university portals, Facebook groups, and event apps like Eventbrite. Most solutions are either too institutional (slow, desktop-first) or too social (noisy, unstructured).",
+      "bullets": [
+        "University portals lack modern UX",
+        "Social groups create information noise",
+        "Opportunity: clean, student-focused aggregator"
+      ]
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "content": "Sketched mobile-first wireframes for home, event listing, event detail, and club pages. Focused on card-based layouts and bottom navigation for thumb-friendly access.",
+      "bullets": [
+        "Home: hero + event cards + club highlights",
+        "Events: filterable list with date badges",
+        "Clubs: grid with member count and category"
+      ]
+    },
+    "designDecisions": {
+      "title": "Design Decisions",
+      "content": "Chose a clean, minimal aesthetic with generous whitespace. CSS custom properties for theming. Component-based HTML structure for maintainability.",
+      "bullets": [
+        "Mobile-first responsive breakpoints",
+        "CSS Grid and Flexbox for layouts",
+        "Consistent 8px spacing system"
+      ]
+    },
+    "finalScreens": {
+      "title": "Final Screens",
+      "content": "Implemented responsive UI across home, events, clubs, announcements, and detail pages. Smooth hover states and transitions enhance the premium feel.",
+      "bullets": [
+        "Responsive navigation with mobile menu",
+        "Event cards with category color coding",
+        "Club detail pages with activity feeds"
+      ]
+    },
+    "prototype": {
+      "title": "Prototype",
+      "content": "Live deployed version serves as the interactive prototype. All navigation, filtering, and detail views are functional with sample campus data.",
+      "bullets": [
+        "Fully responsive across devices",
+        "Interactive filter and search UI",
+        "Deployed on Vercel for public access"
+      ]
+    },
+    "impact": {
+      "title": "Impact",
+      "content": "Shared with 15 classmates for feedback—92% found it easier to scan events compared to WhatsApp groups. Project demonstrated full frontend development capability.",
+      "bullets": [
+        "Positive peer feedback on usability",
+        "Demonstrated deployment pipeline knowledge",
+        "Portfolio piece showcasing design + code skills"
+      ]
+    },
+    "learnings": {
+      "title": "Learnings",
+      "content": "Mobile-first CSS saves rework. Semantic HTML improves accessibility and SEO. Starting with content structure before styling leads to cleaner code.",
+      "bullets": [
+        "Component thinking applies to vanilla HTML/CSS",
+        "Performance matters—even static sites need optimization",
+        "User feedback early prevents feature bloat"
+      ]
+    }
+  }
+}

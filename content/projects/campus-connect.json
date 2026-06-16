@@ -1,0 +1,13 @@
+{
+  "id": "campus-connect",
+  "title": "Campus Connect",
+  "description": "A responsive student community platform connecting peers through events, clubs, and campus activities.",
+  "category": "Frontend Development",
+  "tags": ["HTML", "CSS", "JavaScript", "Responsive Design", "Deployment"],
+  "coverImage": "/images/projects/Main.svg",
+  "caseStudyLink": "/case-studies/campus-connect",
+  "githubLink": "https://github.com/apoorvpatel649",
+  "liveLink": "https://campus-connect-demo.vercel.app",
+  "featured": true,
+  "year": "2025"
+}

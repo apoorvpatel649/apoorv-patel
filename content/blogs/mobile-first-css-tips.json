@@ -1,0 +1,13 @@
+{
+  "id": "frontend-tips-mobile-first",
+  "title": "Mobile-First CSS: Lessons from Building Campus Connect",
+  "excerpt": "Practical tips for building responsive interfaces that feel native on every screen size.",
+  "category": "Frontend Tips",
+  "author": "Apoorv Patel",
+  "publishedAt": "2025-10-20",
+  "readTime": "5 min",
+  "coverImage": "/images/blog/frontend.svg",
+  "slug": "mobile-first-css-tips",
+  "published": true,
+  "content": "Building Campus Connect taught me that mobile-first isn't just a buzzword—it's a discipline that saves hours of refactoring.\n\nStart with the smallest viewport. Design your base styles for 320px width, then use min-width media queries to enhance for larger screens. This inversion prevents the common trap of designing desktop-first and then awkwardly cramming content on mobile.\n\nUse CSS custom properties for your spacing and typography scales. An 8-point grid system keeps everything aligned: --space-1: 8px, --space-2: 16px, and so on. Consistency breeds professionalism.\n\nTouch targets matter. Apple's HIG recommends 44px minimum. I audit every interactive element against this standard.\n\nFinally, test on real devices. Browser DevTools are helpful, but nothing replaces holding your phone and tapping through the experience."
+}
